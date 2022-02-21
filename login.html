@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Trang chủ</title>
+		<title>Login</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="">
 		<meta name="keywords" content="">
@@ -11,7 +11,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link rel="shortcut icon" type="image/png" href="favicon.ico">
 	</head>
-	<body class="homepage">
+	<body class="loginPage bg-hdbank">
 		<header> 
 			<div class="wrap-header d-flex align-items-center">
 				<div class="wrap-header-left d-flex align-items-center"><a class="wrap-header-left_icon d-flex align-items-center justify-content-center" href=""> <img src="./images/icons/icons-windows.svg" alt=""></a><a class="wrap-header-left_logo" href=""><img src="./images/header/logo.png" alt=""></a></div>
@@ -65,6 +65,48 @@
 			</div>
 		</header>
 		<main>
+			<section class="login-page"> 
+				<div class="wide">
+					<div class="row"> 
+						<div class="col-xl-7 col-lg-6 col-md-12">
+							<div class="wrap-left"> 
+								<div class="wrap-left_img"> <img src="./images/login/image-content.png" alt=""></div>
+								<div class="wrap-left_content"> 
+									<div class="desc"> 
+										<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-5 col-lg-6 col-md-12">
+							<div class="wrap-right"> 
+								<form class="wrap-form d-flex flex-column align-items-center justify-content-center" action=""> 
+									<div class="form-title"> 
+										<p>Chào mừng đến &nbsp;<span>360° Customer View</span></p>
+									</div>
+									<div class="form-label"> 
+										<p>Nhập thông tin đăng nhập</p>
+									</div>
+									<div class="form-group"> 
+										<input class="form-control" type="text" placeholder="User name">
+									</div>
+									<div class="form-group"> 
+										<input class="form-control" type="password" placeholder="Password">
+										<div class="hidden-password"> <img src="./images/icons/eye_line.svg" alt=""></div>
+									</div>
+									<div class="form-group"> 
+										<input id="checkbox" type="checkbox" name="">
+										<label class="label-checkbox" for="checkbox">Nhớ trạng thái đăng nhập</label>
+									</div>
+									<button class="btn btn-login" type="submit"><span>Đăng nhập</span></button>
+								</form>
+								<div class="loading"><img src="./images/login/loading.gif" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-footer"> <img src="./images/footer/footer.png" alt=""></div>
+			</section>
 		</main>
 		<footer> </footer>
 		<div id="overlay"></div>
